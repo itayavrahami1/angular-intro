@@ -1,0 +1,8 @@
+<section *ngIf="isTimer">
+    <h1>My Timer</h1>
+    <div class="timer">
+      <span id="minutes">{{timer.minLeft}}</span
+      >:
+      <span id="seconds" [class]="timerCls">{{timer.secLeft}}</span>
+    </div>
+  </section>
